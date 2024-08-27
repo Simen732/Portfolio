@@ -1,23 +1,24 @@
 body{
-    background-color: rgba(237,235,254,255)
+    background-color: rgba(237,235,254,255);
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 nav{
+    width: 70%;
     background-color: rgba(255,254,254,255);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
-    margin: 0px;
-    border-radius: 10px;
+    padding: 0px 30px;
+    border-radius: 20px 20px 0px 0px;
     border-color: black;
     transition: box-shadow 0.5s;
-}
-
-
-nav:hover {
-  box-shadow: 0 0 80px 30px #48abe0;
+    align-items: center;
 }
 
 
@@ -25,3 +26,37 @@ a{
     color: black;
     text-decoration: none;
 }   
+
+#Menu{
+    max-width: 100px;
+}
+
+#Logo{
+    margin-left: 10px;
+}
+
+#mainBody{
+    background-color: rgba(255,254,254,255);
+    width: 70%;
+    min-height: 2000px;
+    padding: 0px 30px 0px 30px;
+    border-top: black solid 1.7px;
+    margin-bottom: 70px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+}
+
+#konteirer{
+    display: flex;
+    min-width: 500px;
+    flex-direction: column;
+}
+
+#konteirer h1{
+    margin: 0px;
+    font-size: 300%
+}
+
+#konteirer2{
+    display: flex;
+}
