@@ -50,6 +50,8 @@ a{
     display: flex;
     min-width: 500px;
     flex-direction: column;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 #konteirer h1{
@@ -59,4 +61,10 @@ a{
 
 #konteirer2{
     display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#konteirer2 h1{
+    margin: 0px;
 }
