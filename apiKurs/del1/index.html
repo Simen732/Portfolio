@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <a href="../../index.html"><button class="home-button"> Tilbake </button></a>
+    </div>
+    <div id="conteirer">
+
+        <h1 id="Text1"> Weather API </h1>
+
+        <form id="changeLocation">
+            <label for="city"> Enter a location for weather information </label>
+            <input type="text" name="city" id="cityInput">
+        </form>
+        
+        <div class="displayNone" id="card">
+            <img src="https://fakeimg.pl/600x400" id="time">
+            <div id="icon">
+                <img src="" alt="">
+            </div>
+            <div id="details">
+                <div id="idk">
+                    <h5 id="cityName">City name</h5>
+                    <div id="condition">Weather condition</div>
+                        <div>
+                            <span>temp</span>
+                            <span>&deg;C</span>
+                            <span>GMT: </span>
+                        </div>
+                </div>
+
+                </div>
+        </div>
+
+    </div>
+
+
+    <script src="./scripts/forecast.js"></script>
+    <script src="./scripts/js.js"></script>
+</body>
+</html>

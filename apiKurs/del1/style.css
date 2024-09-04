@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: rgb(172, 168, 191);
+    font-family: Arial, sans-serif;
+}
+
+#conteirer {
+    max-width: 375px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(212, 212, 212);
+    margin-top: 50px; /* Adjust as needed */
+}
+
+#Text1 {
+    margin-top: 0;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#icon {
+    background-color: gray;
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 5px solid white;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+
+#details {
+    margin-top: -100px;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 25%;
+    background-color: #515151
+}
+
+h5 {
+    margin: 5px 0;
+}
+
+#time {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#idk {
+    position: relative;
+    top: 140px;
+}
+
+#cityName {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.darkmode{
+    margin-top: -100px;
+    background-color: #515151 !important;
+    color: white;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 25%;
+}
+
+.lighmode{
+    margin-top: -100px;
+    background-color: #515151 !important;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 25%;
+}
+
+.darkmodeKonteiner{
+    max-width: 375px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(40, 40, 40) !important;
+    color: white;
+    margin-top: 50px;
+}
+
+.lighmodeKonteiner{
+    max-width: 375px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(194, 194, 194) !important;
+    color: black;
+    margin-top: 50px;
+}
+
+
+.displayNone {
+    display: none;
+}
+
+.home-button {
+    background-color: #82b7be; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    padding: 12px 20px; /* Padding around the button */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Center text */
+    display: inline-block; /* Keep it inline */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.home-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
