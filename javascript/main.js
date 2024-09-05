@@ -56,9 +56,11 @@ div3.addEventListener('mouseout', () => {
 
 div4.addEventListener('mouseover', () => {
     trigger4.style.display = 'flex'; // Show the target
-    // linuxLogo.style.width = '30%';
-    linuxLogo.style.height = '30%';
+    trigger4.style.justifyContent = 'end'; // Show the target
+    linuxLogo.style.width = '30%';
+    // linuxLogo.style.height = '30%';
     linuxLogo.src = '../img/Linuxhover.png'
+    linuxLogo.firstChild.style.display ="flex";
 });
 
 div4.addEventListener('mouseout', () => {
@@ -74,7 +76,7 @@ div4.addEventListener('mouseout', () => {
 
 div5.addEventListener('mouseover', () => {
     trigger5.style.display = 'flex'; // Show the target
-    nodeLogo.style.width = '30%';
+        // nodeLogo.style.width = '30%';
     nodeLogo.style.height = '30%';
 
 });

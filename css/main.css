@@ -30,18 +30,34 @@ nav{
     align-items: center;
 }
 
+#DivTing{
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-grow: 0;
+    justify-content: end;
+    width: 100%;
+}
+
+#DivTing a {
+    width: 10%;
+}
 
 a{ 
+    display: inline-block;
     color: black;
     text-decoration: none;
+    
 }   
 
 #Menu{
-    max-width: 100px;
+    /* width: 15%; */
 }
 
-#Logo{
+.logo{
+    display: flex;
     margin-left: 10px;
+    flex-grow: 1;
+    /* border: 1px solid blue; */
 }
 
 #mainBody{
@@ -112,6 +128,11 @@ a{
     grid-row-gap: 10px;
     width: 80%;
     padding: 2em;
+    
+}
+
+#LinkedInLogo{
+    /* width: 15%; */
 }
 
 .div1, .div2, .div3, .div4, .div5, .div6 {
@@ -140,6 +161,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     /* transition: transform 0.3s ease, box-shadow 0.3s ease, height 0.3s ease; */
 }
 
@@ -148,6 +170,8 @@ a{
     grid-area: 2 / 2 / 3 / 9;
     display: flex;
     flex-direction: row-reverse;
+
+
 }
 
 .div4 {
@@ -160,12 +184,19 @@ a{
     background: #44a53b83;
     display: flex;
     flex-direction: row-reverse;
+
 }
 
 .div6 {
     background: rgb(0,103,140);background: linear-gradient(90deg, rgba(0, 103, 140, 0.473) 0%, rgba(207,139,45,1) 100%);
     grid-area: 4 / 1 / 5 / 9;
 }
+
+#NodeText, #HtmlText{
+    text-align: left;
+    padding-left: 5%;
+}
+
 
 .child1:hover{
     height: 19em; 
@@ -185,7 +216,9 @@ a{
 
 .child4:hover{
     height: 19em; 
-    background: rgb(98,189,68);
+    background: rgb(131, 145, 126);
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .child5:hover{
@@ -208,11 +241,14 @@ a{
 
 .parent h3{
     margin-right: 25px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .div2 img{
     margin-top: 10%;
-    width: 100%;
+    width: 90%;
 }
 
 
@@ -245,6 +281,10 @@ a{
 #div6_text{
     display: none;
     flex-direction: column;
+}
+
+#htmlLogo{
+    padding-right: 3%;
 }
 
 .project-box {
