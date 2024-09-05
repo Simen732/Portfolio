@@ -35,11 +35,13 @@ div.addEventListener('mouseout', () => {
 div2.addEventListener('mouseover', () => {
     trigger2.style.display = 'flex'; // Show the target
     cssLogo.style.width = '30%';
+    cssLogo.style.marginTop = '-0%';
 });
 
 div2.addEventListener('mouseout', () => {
     trigger2.style.display = 'none'; // Hide the target
-    cssLogo.style.width = '100%';
+    cssLogo.style.width = '90%';
+    cssLogo.style.marginTop = '10%';
 });
 
 
@@ -60,13 +62,13 @@ div4.addEventListener('mouseover', () => {
     linuxLogo.style.width = '30%';
     // linuxLogo.style.height = '30%';
     linuxLogo.src = '../img/Linuxhover.png'
-    linuxLogo.firstChild.style.display ="flex";
+    // linuxLogo.firstChild.style.display ="flex";
 });
 
 div4.addEventListener('mouseout', () => {
     trigger4.style.display = 'none'; // Hide the target
-    // linuxLogo.style.width = '100%';
-    linuxLogo.style.height = '100%';
+    linuxLogo.style.width = '20%';
+    linuxLogo.style.height = '260%';
 
 
 });
