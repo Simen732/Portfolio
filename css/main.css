@@ -134,6 +134,7 @@ a{
 
 #LinkedInLogo{
     /* width: 15%; */
+    /* margin-right: 200%; */
 }
 
 .div1, .div2, .div3, .div4, .div5, .div6 {
@@ -348,16 +349,58 @@ a{
 
 /* CV Section Styling */
 .cv-section {
-    padding: 60px 20px;
-    background-color: #f9f9f9;
+    padding: 10% 20%;
+    /* padding: 60px 20px; */
+    background: rgb(0,103,140);background: linear-gradient(90deg, rgba(0, 103, 140, 0.473) 0%, rgba(207,139,45,1) 100%);
     text-align: center;
     font-family: 'Arial', sans-serif;
+    border-radius: 20px;
+    /* box-shadow: 1px 2px 11px 10px rgba(14, 128, 124, 1); */
 }
 
 .cv-container {
     max-width: 800px;
     margin: 0 auto;
 }
+
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
 
 .cv-container h2 {
     font-size: 28px;
@@ -371,12 +414,12 @@ a{
     margin-bottom: 30px;
 }
 
-.cv-image-container {
+/* .cv-image-container {
     border: 1px solid #ddd;
     padding: 10px;
     background-color: #fff;
     display: inline-block;
-}
+} */
 
 .cv-image-container img {
     max-width: 100%;
