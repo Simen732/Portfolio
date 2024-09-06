@@ -7,6 +7,7 @@ const div2 = document.querySelector('.div2')
 const cssLogo = document.querySelector('#cssLogo')
 const linuxLogo = document.querySelector('#linuxLogo')
 const nodeLogo = document.querySelector('#nodeLogo')
+const javascriptLogo = document.querySelector('#javascriptLogo')
 
 
 

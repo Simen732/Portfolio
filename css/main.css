@@ -91,7 +91,7 @@ a{
 
 #konteirer2{
     display: flex;
-    margin-top: 5%;
+    margin-top: 5%;  
     margin-right: 5%;
     width: 40%;
 }
@@ -550,7 +550,7 @@ footer {
     .parent {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        /* grid-template-rows: repeat(6, 1fr); */
         grid-column-gap: 0px;
         grid-row-gap: 20px;
         }
@@ -563,10 +563,20 @@ footer {
         .div6 { grid-area: 6 / 1 / 7 / 6; }
 
     #cssLogo{
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 90%;
+        max-height: 90%;
         height: auto;
         width: auto;
+        padding-bottom: 40px;   
     }
+
+    .div1:hover{
+        background: #fede00;
+    }
+
+    .div1{
+        background: #fede00;
+    }
+
   }
 
