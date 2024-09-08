@@ -1,9 +1,14 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: black;
     background-color: rgb(172, 168, 191);
     font-family: Arial, sans-serif;
+    height: 100vh; /* Ensure the body takes full viewport height */
+    margin: 0;
+    position: relative;
+    padding-top: 50px; /* Padding to avoid overlap with the button */
 }
 
 #conteirer {
@@ -12,7 +17,6 @@ body {
     padding: 20px;
     border-radius: 10px 10px 0px 0px;
     background-color: rgb(212, 212, 212);
-    margin-top: 50px; /* Adjust as needed */
 }
 
 #Text1 {
@@ -75,7 +79,7 @@ h5 {
     font-size: 20px;
 }
 
-.darkmode{
+.darkmode {
     margin-top: -100px;
     background-color: #515151 !important;
     color: white;
@@ -84,7 +88,7 @@ h5 {
     padding-bottom: 25%;
 }
 
-.lighmode{
+.lighmode {
     margin-top: -100px;
     background-color: #515151 !important;
     color: rgb(0, 0, 0);
@@ -93,29 +97,32 @@ h5 {
     padding-bottom: 25%;
 }
 
-.darkmodeKonteiner{
+.darkmodeKonteiner {
     max-width: 375px;
     text-align: center;
     padding: 20px;
     border-radius: 10px 10px 0px 0px;
     background-color: rgb(40, 40, 40) !important;
     color: white;
-    margin-top: 50px;
 }
 
-.lighmodeKonteiner{
+.lighmodeKonteiner {
     max-width: 375px;
     text-align: center;
     padding: 20px;
     border-radius: 10px 10px 0px 0px;
     background-color: rgb(194, 194, 194) !important;
     color: black;
-    margin-top: 50px;
 }
-
 
 .displayNone {
     display: none;
+}
+
+#idk3 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .home-button {
