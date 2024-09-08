@@ -8,6 +8,9 @@ const cssLogo = document.querySelector('#cssLogo')
 const linuxLogo = document.querySelector('#linuxLogo')
 const nodeLogo = document.querySelector('#nodeLogo')
 const javascriptLogo = document.querySelector('#javascriptLogo')
+const HtmlLogo = document.querySelector('#htmlLogo')
+const MysqlLogo = document.querySelector('#SqlLogo')
+
 
 
 
@@ -25,16 +28,20 @@ const div6 = document.querySelector('.div6')
 
 div.addEventListener('mouseover', () => {
     trigger.style.display = 'flex'; // Show the target
+    javascriptLogo.classList.add('javascriptLogoHover');
 });
 
 div.addEventListener('mouseout', () => {
     trigger.style.display = 'none'; // Hide the target
+    javascriptLogo.classList.remove('javascriptLogoHover');
+
 });
 
 
 
 div2.addEventListener('mouseover', () => {
     trigger2.style.display = 'flex'; // Show the target
+    cssLogo.classList.remove('cssLogoHover');
     cssLogo.style.width = '30%';
     cssLogo.style.marginTop = '-0%';
 });
@@ -42,16 +49,21 @@ div2.addEventListener('mouseover', () => {
 div2.addEventListener('mouseout', () => {
     trigger2.style.display = 'none'; // Hide the target
     cssLogo.style.width = '90%';
+    cssLogo.classList.add('cssLogoHover');
     cssLogo.style.marginTop = '10%';
 });
 
 
 div3.addEventListener('mouseover', () => {
     trigger3.style.display = 'flex'; // Show the target
+    HtmlLogo.classList.add('HtmlLogoHover');
+    
 });
 
 div3.addEventListener('mouseout', () => {
     trigger3.style.display = 'none'; // Hide the target
+    HtmlLogo.classList.remove('HtmlLogoHover');
+
 });
 
 
@@ -61,6 +73,7 @@ div4.addEventListener('mouseover', () => {
     trigger4.style.display = 'flex'; // Show the target
     trigger4.style.justifyContent = 'end'; // Show the target
     linuxLogo.style.width = '30%';
+    linuxLogo.classList.add('linuxLogoHover');
     // linuxLogo.style.height = '30%';
     linuxLogo.src = './img/Linuxhover.png'
     // linuxLogo.firstChild.style.display ="flex";
@@ -96,12 +109,16 @@ div5.addEventListener('mouseout', () => {
 
 div6.addEventListener('mouseover', () => {
     trigger6.style.display = 'flex'; // Show the target
+    MysqlLogo.classList.add('MysqlLogoHover');
 
 
 });
 
 div6.addEventListener('mouseout', () => {
     trigger6.style.display = 'none'; // Hide the target
+    MysqlLogo.classList.remove('MysqlLogoHover');
+
+
 
 
 });
